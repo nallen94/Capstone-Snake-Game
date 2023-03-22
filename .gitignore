@@ -1,1 +1,4 @@
 .github/**
+build/
+*.json
+src_copy/
