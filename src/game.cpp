@@ -108,6 +108,12 @@ void Game::Update() {
     snake.GrowBody();
     snake.speed += 0.02;
   }
+
+  for (SDL_Point const obsctacle : obstacles) {
+    if (obsctacle.x == new_x && obsctacle.y == new_y) {
+     snake.alive = false;
+    }
+  }
 }
 
 int Game::GetScore() const { return score; }
