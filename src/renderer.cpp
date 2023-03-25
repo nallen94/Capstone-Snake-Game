@@ -174,8 +174,8 @@ void Renderer::Render(Snake const snake, std::vector<SDL_Point> const &obstacles
   SDL_RenderPresent(sdl_renderer.get());
 }
 
-void Renderer::UpdateWindowTitle(int score, int fps)
+void Renderer::UpdateWindowTitle(int highscore, int score, int fps)
 {
-  std::string title{"Snake Score: " + std::to_string(score) + " FPS: " + std::to_string(fps)};
+  std::string title{"High Score: "+ std::to_string(highscore) +" Snake Score: " + std::to_string(score) + " FPS: " + std::to_string(fps)};
   SDL_SetWindowTitle(sdl_window.get(), title.c_str());
 }

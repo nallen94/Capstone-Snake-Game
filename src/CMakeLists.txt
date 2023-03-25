@@ -5,6 +5,7 @@ set(target_headers
     game.h
     renderer.h
     snake.h
+    score.h
 )
 
 set(target_sources 
@@ -13,6 +14,7 @@ set(target_sources
     game.cpp
     renderer.cpp
     snake.cpp
+    score.cpp
 )
 add_executable(${exe_name}
                 ${target_headers}
