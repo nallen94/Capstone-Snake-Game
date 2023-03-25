@@ -50,6 +50,7 @@ void Score::check_highscore()
         highscore_= std::stoi(s);
         if(current_score_ >std::stoi(s))
         {
+        std::cout<<"You got Highscore !"<<std::endl;
         highscore_=current_score_;
         write_tofile();
         }
