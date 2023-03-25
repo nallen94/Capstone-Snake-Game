@@ -68,11 +68,10 @@ void Game::PlaceFood() {
 }
 
 void Game::PlaceObstacles() {
-  int num_obstacles=10;
+  int num_obstacles=8;
   int x, y;  
   SDL_Point point;
 
-  // std::cout<<obstacles.size()<<std::endl;
   for (int i=0 ; i< num_obstacles ; i++)
   {  
   while (true) {
