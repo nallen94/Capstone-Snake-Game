@@ -3,7 +3,7 @@
 This is the capstone project submission for the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). The code for this repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) excellent StackOverflow post and set of responses.   
 
 ## Overview
-The main strucutre of the project was forked from [Udacity C++ Snake Game](https://github.com/udacity/CppND-Capstone-Snake-Game). The following features have been added to this project to make it more interactive and engaging for the user-
+The main structure of the project was forked from [Udacity C++ Snake Game](https://github.com/udacity/CppND-Capstone-Snake-Game). The following features have been added to this project to make it more interactive and engaging for the user-
 
 - ✨ Obstacles in "Red" to make the game more challenging ✨
 - ✨ Maintenance of game highscore ✨
